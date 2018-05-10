@@ -5,8 +5,8 @@ RELEASE_LIB_NAME= $(LIBDIR)/lib$(PROJECT_NAME).a
 DEBUG_LIB_NAME	= $(LIBDIR)/lib$(PROJECT_NAME)d.a
 RELEASE_OBJDIR	= obj_release/
 DEBUG_OBJDIR	= obj_debug/
-SRCS		= Maze.cpp Boutaoshi.cpp
-HDRS		= $(INCDIR)/Maze.h
+SRCS		= maze.cpp boutaoshi.cpp
+HDRS		= $(INCDIR)/maze.h
 OBJS		= $(SRCS:.cpp=.o)
 RELEASE_OBJS	= $(OBJS:%=$(RELEASE_OBJDIR)/%)
 DEBUG_OBJS	= $(OBJS:%=$(DEBUG_OBJDIR)/%)

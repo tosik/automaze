@@ -6,7 +6,7 @@
 int main(void)
 {
 	automaze::Maze maze(31, 21);
-	automaze::Boutaoshi::generateMaze(maze);
+	automaze::Boutaoshi::GenerateMaze(maze);
 
 	for ( int y = 0 ; y < (int)maze.GetSizeY() ; y ++ )
 	{

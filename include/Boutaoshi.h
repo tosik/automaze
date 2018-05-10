@@ -1,5 +1,5 @@
-#pragma once
-
+#ifndef _BOUTAOSHI_H_
+#define _BOUTAOSHI_H_
 
 #include "Maze.h"
 
@@ -11,3 +11,4 @@ namespace automaze
 	}
 }
 
+#endif
