@@ -7,7 +7,7 @@ namespace automaze
 {
 	namespace Boutaoshi
 	{
-		void generateMaze(Maze & maze);
+		void GenerateMaze(Maze & maze);
 	}
 }
 

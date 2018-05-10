@@ -5,7 +5,7 @@ namespace automaze
 {
 	namespace Boutaoshi
 	{
-		void initialize(Maze & maze)
+		void Initialize(Maze & maze)
 		{
 			for ( int y = 0 ; y < (int)maze.GetSizeY() ; y ++ )
 			{
@@ -79,9 +79,9 @@ namespace automaze
 			maze.SetWall(x + rx, y + ry);
 		}
 
-		void generateMaze(Maze & maze)
+		void GenerateMaze(Maze & maze)
 		{
-			initialize(maze);
+			Initialize(maze);
 
 			// first line (y==2)
 			for ( int x = 2, y = 2 ; x < maze.GetSizeX() - 2 ; x += 2 )
